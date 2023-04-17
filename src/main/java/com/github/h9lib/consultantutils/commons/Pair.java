@@ -1,6 +1,6 @@
 package com.github.h9lib.consultantutils.commons;
 
-public class Pair <L, R> {
+public final class Pair <L, R> {
     private L left;
     private R right;
 
