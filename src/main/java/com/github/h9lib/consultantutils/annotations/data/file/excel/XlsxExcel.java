@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface XslxExcel {
-	//true if the excel version is 2007 or higher (.xslx extension) - false if the excel version is 2003
-	boolean isXslxExcel() default true;
+public @interface XlsxExcel {
+	//true if the excel version is 2007 or higher (.xlsx extension) - false if the excel version is 2003
+	boolean isXlsxExcel() default true;
 }
